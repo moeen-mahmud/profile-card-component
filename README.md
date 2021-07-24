@@ -66,7 +66,7 @@ This is my second project from **Frontendmentor**, following my previous [projec
 
 - [Conquering_Responsive_Layouts](https://courses.kevinpowell.co/) - This is a great course from [Kevin](https://twitter.com/KevinJPowell), I learned a lot how to layout a website with some interesting way!
 
-- [MDN](https://developer.mozilla.org/en-US/) - My go to solution if I got stucked in some cases.
+- [MDN](https://developer.mozilla.org/en-US/) - My go to solution if I got stuck in some cases.
 
 ## Author
 
