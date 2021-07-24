@@ -44,7 +44,7 @@ Users should be able to view the optimal layout depending on their device's scre
 
 In this project I learn how to use background image as svg and how to properly layout them for optimal cross-platform view.
 
-```
+```css
 .background_image--top {
   position: fixed;
   bottom: 45%;
