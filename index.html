@@ -4,7 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <title>Frontend Mentor | Profile card component</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="card">
+        <div class="background_image--top">
+          <img src="./images/bg-pattern-top.svg" alt="Top BG Pattern" />
+        </div>
+        <div class="card_box">
+          <div class="card_bg">
+            <img src="./images/bg-pattern-card.svg" alt="bg-pattern-card" />
+          </div>
+          <div class="card_profile">
+            <img src="./images/image-victor.jpg" alt="" />
+          </div>
+          <div class="card_info">
+            <h1 class="profile_name">
+              Victor Crest <span class="profile_age"> 26</span>
+            </h1>
+            <h3 class="profile_address">London</h3>
+          </div>
+          <hr />
+          <div class="card_social-info">
+            <div class="profile_stats">
+              <h1>80K</h1>
+              <small>Followers</small>
+            </div>
+            <div class="profile_stats">
+              <h1>803K</h1>
+              <small>Likes</small>
+            </div>
+            <div class="profile_stats">
+              <h1>1.4K</h1>
+              <small>Photos</small>
+            </div>
+          </div>
+        </div>
+        <div class="background_image--bottom">
+          <img src="./images/bg-pattern-bottom.svg" alt="" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Moeen Mahmud</a>.
+      </div>
+    </footer>
+  </body>
 </html>
